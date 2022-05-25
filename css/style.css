@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  header{
+   
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    border: 4px solid white;
+    position: fixed;
+    width: 100%;
+    
+}
+    
+ 
+   
+    
+   
+    .headerD .left img{
+        width: 100%;
+    }
+       
+        
+    .headerD .left{
+        width: 15%;
+    }
+   .headerD .right{
+       width: 75%;
+       text-align: right;
+   }
+    
+.container{
+    padding:0 6rem;
+}
+.headerD a{
+    font-size: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;;
+   
+    
+}
+.headerD{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+
+
+.Make{
+    background-image: url(/img/1.jpg);
+  text-align: center;
+   background-position: center;
+   background-size: cover;
+   padding: 13rem;
+}
+.Make h5{
+    font-size: 20px;
+    color: #ffffff;
+}
+ .Make h1{
+     font-size: 60px;
+     color: #ffffff;
+     margin-top: 20px;
+     margin-bottom: 50px;
+     
+ }  
+ .Make a{
+     border: 2px solid transparent;
+     background-color: #6168ff;
+     padding: 13px 25px;
+     border-radius: 5px;
+     color: white;
+     text-transform: uppercase;
+     text-decoration: none;
+     transition: 0.4s;
+     
+ }
+ .Make a:hover{
+     background-color: transparent;
+     border-color: #ffffff;
+    }
+
+     #Pieces{
+         padding: 7rem 0;
+         width: 100%;
+         
+     }
+     #Pieces .disp{
+         display: flex;
+         justify-content: space-between;
+         
+     }
+     .disp  .box{
+         width: 47%;
+     }
+     .disp .box img{
+         width: 100%;
+        
+     }
+     #Pieces  .text-all{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         
+        
+        }
+        #Pieces .text-box{
+            width: 47%;
+        }
+        .text-box i{
+            font-size: 50px;
+            color: #6168ff;
+        }
+        .text-box h2{
+            font-size: 20px;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        .text-box p{
+            opacity: 0.8;
+            margin-bottom: 30px;
+           
+        }
+        .disp1{
+            display: flex;
+          justify-content: space-between;
+           
+
+        }
+        .disp1 .photos{
+            width: 100%;
+            
+        }
+        .disp1 .photos img{
+            width: 100%;
+        
+            padding:0rem 60px 0rem 60px;
+        }
+        #Destination .h2edit{
+            text-align: center;
+            font-size: 15px;
+            color: #6168ff;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        #Destination h1{
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 50px;
+        }
+        #Destination h3{
+            text-align: center;
+            margin-right: 6rem;
+            margin-top: 20px;
+          font-size: 25px;
+        }
+        #Destination{
+            padding: 3rem;
+        }
+        .allservice{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #Services .box{
+            width: 32%;
+            border: 1px solid red;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #F4F9FF;
+            border-color: transparent;
+        }
+        #Services{
+          padding: 3rem; 
+        }
+
+        #Services .h2edit{
+            text-align: center;
+            font-size: 15px;
+            color: #6168ff;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        #Services h1{
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 50px;
+            font-size: 30px;
+          
+        }
+        #Services .box i{
+            font-size: 40px;
+            color: #6168ff;
+            margin-bottom: 10px;
+        }
+        #Services .box h2{
+            font-size: 23px;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+     
+
+  
