@@ -4,23 +4,22 @@
     box-sizing: border-box;
 }
 
+.container{
+    padding:0 6rem;
+}
+
   header{
-   
     background-color: white;
-    padding: 1rem;
-    display: flex;
-    border: 4px solid white;
-    position: fixed;
+    padding: 1rem 0;
+    z-index: 1;
     width: 100%;
-    
+    position: fixed;
 }
     
  
-   
-    
-   
+
     .headerD .left img{
-        width: 100%;
+        width: 80%;
     }
        
         
@@ -32,9 +31,7 @@
        text-align: right;
    }
     
-.container{
-    padding:0 6rem;
-}
+
 .headerD a{
     font-size: 20px;
     margin-left: 30px;
@@ -52,7 +49,7 @@
 
 
 .Make{
-    background-image: url(/img/1.jpg);
+    background-image: url('../img/1.jpg');
   text-align: center;
    background-position: center;
    background-size: cover;
@@ -126,6 +123,7 @@
         .text-box p{
             opacity: 0.8;
             margin-bottom: 30px;
+            line-height: 1.5;
            
         }
         .disp1{
@@ -136,6 +134,7 @@
         }
         .disp1 .photos{
             width: 100%;
+          
             
         }
         .disp1 .photos img{
@@ -160,6 +159,7 @@
             margin-right: 6rem;
             margin-top: 20px;
           font-size: 25px;
+        
         }
         #Destination{
             padding: 3rem;
@@ -205,6 +205,9 @@
             font-size: 23px;
             font-weight: 300;
             margin-bottom: 15px;
+        }
+        #Services p{
+            line-height: 1.5;
         }
      
 
